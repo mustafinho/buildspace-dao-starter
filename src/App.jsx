@@ -25,7 +25,7 @@ const App = () => {
   
   // This is the case where we have the user's address
   // which means they've connected their wallet to our site!
-  
+
   return (
     <div className="landing">
       <h1>GM. 👀 wallet connected baby</h1>

@@ -7,7 +7,7 @@ import App from "./App.jsx";
 import { ThirdwebWeb3Provider } from '@3rdweb/hooks';
 
 //include the chain id we want to work with
-//4 = Rinkeby.
+//4 = Rinkeby
 
 const supportedChainsIds =[4]
 
@@ -24,7 +24,7 @@ ReactDOM.render(
   <React.StrictMode>
   <ThirdwebWeb3Provider
   connectors={connectors}
-  supportedChainIds={supportedChainIds}
+  supportedChainIds={supportedChainsIds}
   >
   <div className="landing">
    <App />
