@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App.jsx";
 
+import Navbar from "./components/NavBar"
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+
 // importing third web
 import { ThirdwebWeb3Provider } from '@3rdweb/hooks';
 
@@ -29,7 +32,6 @@ ReactDOM.render(
   <div className="landing">
    <App />
   </div>
-  
   </ThirdwebWeb3Provider>
   </React.StrictMode>,
   document.getElementById("root")
